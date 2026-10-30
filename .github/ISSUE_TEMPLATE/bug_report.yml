@@ -1,0 +1,29 @@
+name: Bug report
+description: Something in Upgrade Guardian is wrong or broken
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes: { label: What happened?, description: What did you expect instead? }
+    validations: { required: true }
+  - type: textarea
+    id: steps
+    attributes: { label: Steps to reproduce, placeholder: "1. Open Game Settings > Upgrade Guardian\n2. ..." }
+    validations: { required: true }
+  - type: input
+    id: foundry
+    attributes: { label: Foundry version, placeholder: "14.369" }
+    validations: { required: true }
+  - type: input
+    id: system
+    attributes: { label: Game system and version, placeholder: "dnd5e 5.3.3" }
+  - type: input
+    id: module
+    attributes: { label: Upgrade Guardian version, placeholder: "1.0.0" }
+    validations: { required: true }
+  - type: textarea
+    id: report
+    attributes: { label: Exported report (Markdown), description: Use the Copy button in the report window and paste here. Remove anything private., render: markdown }
+  - type: textarea
+    id: console
+    attributes: { label: Console errors (F12), render: text }

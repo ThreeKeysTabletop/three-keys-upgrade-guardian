@@ -1,0 +1,1 @@
+{"id":"tkug-mock-sys","title":"TKUG Mock System Addon","version":"1.0.0","compatibility":{"minimum":"13","verified":"15"},"relationships":{"systems":[{"id":"dnd5e","type":"system","compatibility":{"minimum":"5.0"}}],"requires":[{"id":"tkug-mock-max","type":"module"}]}}

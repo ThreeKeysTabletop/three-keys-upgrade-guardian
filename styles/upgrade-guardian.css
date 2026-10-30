@@ -1,0 +1,26 @@
+.tkug-report .window-content { padding: 0; overflow: hidden; }
+.tkug-body { display: flex; flex-direction: column; gap: 6px; height: 100%; padding: 8px; overflow: hidden; }
+.tkug-controls { display: flex; flex-wrap: wrap; gap: 6px 16px; align-items: center; }
+.tkug-field { display: flex; align-items: center; gap: 6px; }
+.tkug-field input[type=text] { width: 110px; }
+.tkug-field button, .tkug-toolbar button, .tkug-actions button { width: auto; flex: 0 0 auto; padding: 0 8px; white-space: nowrap; }
+.tkug-toolbar, .tkug-actions { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+.tkug-inline { display: flex; align-items: center; gap: 4px; }
+.tkug-dim { opacity: .7; font-size: .9em; }
+.tkug-busy { font-style: italic; }
+.tkug-table-wrap { flex: 1; overflow: auto; min-height: 120px; }
+.tkug-table { width: 100%; border-collapse: collapse; font-size: 12px; }
+.tkug-table th { position: sticky; top: 0; background: var(--color-cool-5, #222); color: #eee; text-align: left; padding: 4px; }
+.tkug-table td { padding: 4px; vertical-align: top; border-bottom: 1px solid rgba(128,128,128,.3); }
+.tkug-table code { font-size: 10px; }
+.tkug-table tr.tkug-inactive { opacity: .55; }
+.tkug-notes ul { margin: 0; padding-left: 14px; }
+.tkug-badge { display: inline-block; padding: 1px 6px; border-radius: 8px; font-weight: bold; font-size: 11px; color: #fff; white-space: nowrap; }
+.tkug-safe { background: #2e7d32; } .tkug-untested { background: #9e7c00; } .tkug-likely { background: #d84315; } .tkug-blocked { background: #8b0000; }
+.tkug-update.ok { color: #4caf50; font-weight: bold; } .tkug-update.bad { color: #e57373; }
+.tkug-summary { display: flex; align-items: center; gap: 4px; flex-wrap: wrap; }
+.tkug-count { margin-right: 8px; font-weight: bold; }
+.tkug-checklist ul { list-style: none; margin: 4px 0; padding: 0; columns: 2; }
+.tkug-checklist summary { cursor: pointer; font-weight: bold; }
+.tkug-propose { list-style: none; padding: 0; }
+#tkug-open { margin-top: 4px; }

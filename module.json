@@ -1,0 +1,19 @@
+{
+  "id": "three-keys-upgrade-guardian",
+  "title": "Three Keys Upgrade Guardian",
+  "description": "Before you update Foundry core or your game system, scan the world's modules and see what will likely break: compatibility against a target version, available module updates, dependencies, systems and deprecation warnings, plus a pre-update checklist and a reversible 'disable risky modules' snapshot. GM only.",
+  "version": "1.0.0",
+  "authors": [{ "name": "Three Keys Tabletop", "url": "https://github.com/ThreeKeysTabletop" }],
+  "compatibility": { "minimum": "13", "verified": "14" },
+  "esmodules": ["scripts/main.mjs"],
+  "styles": ["styles/upgrade-guardian.css"],
+  "languages": [{ "lang": "en", "name": "English", "path": "lang/en.json" }],
+  "media": [{ "type": "icon", "url": "modules/three-keys-upgrade-guardian/assets/icon.png" }],
+  "url": "https://github.com/ThreeKeysTabletop/three-keys-upgrade-guardian",
+  "bugs": "https://github.com/ThreeKeysTabletop/three-keys-upgrade-guardian/issues",
+  "license": "LICENSE",
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "manifest": "https://github.com/ThreeKeysTabletop/three-keys-upgrade-guardian/releases/latest/download/module.json",
+  "download": "https://github.com/ThreeKeysTabletop/three-keys-upgrade-guardian/releases/download/v1.0.0/module.zip"
+}

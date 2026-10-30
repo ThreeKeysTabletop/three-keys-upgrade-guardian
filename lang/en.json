@@ -1,0 +1,104 @@
+{
+  "TKUG": {
+    "Title": "Upgrade Guardian",
+    "Open": "Upgrade Guardian",
+    "GMOnly": "Upgrade Guardian is for Gamemasters only.",
+    "System": "game system",
+    "CurrentCore": "Current core",
+    "TargetCore": "Target core version",
+    "TargetSystem": "Target {id} version (optional)",
+    "DetectHint": "Use the newest core release Foundry reported, or your release API URL",
+    "Detect": {
+      "Button": "Detect latest",
+      "coreUpdate": "from Foundry's update check",
+      "releaseApi": "from the release API URL",
+      "maxGeneration": "newest stable generation",
+      "current": "no newer release detected; type a version",
+      "manual": "entered manually"
+    },
+    "Rescan": "Rescan",
+    "CheckUpdates": "Check for module updates",
+    "ExportMd": "Markdown",
+    "ExportJson": "JSON",
+    "Copy": "Copy",
+    "Copied": "Report copied to the clipboard as Markdown.",
+    "CopyFailed": "The browser blocked clipboard access. Use the Markdown export instead.",
+    "ShowInactive": "Show inactive modules",
+    "SummaryHint": "Counts are active packages against core {t}.",
+    "Cancel": "Cancel",
+    "Startup": "Upgrade Guardian: {n} active module(s) will likely break or are blocked on core {t}. Open Game Settings > Upgrade Guardian for details.",
+    "Busy": { "Scan": "Scanning…", "Updates": "Checking manifests…" },
+    "Status": { "safe": "Safe", "untested": "Untested", "likely": "Likely to break", "blocked": "Blocked" },
+    "Col": {
+      "Package": "Package", "Version": "Version", "Active": "Active", "Compat": "Min / Verified / Max",
+      "Current": "Current core", "Target": "Target", "Update": "Newer version", "Notes": "Why"
+    },
+    "Reason": {
+      "NoTarget": "No target version set.",
+      "BelowMinimum": "Needs at least core {v}.",
+      "AboveMaximum": "Stops at core {v} (maximum).",
+      "NoVerified": "No verified version declared.",
+      "Verified": "Verified up to {v}.",
+      "OlderGeneration": "Only verified up to {v}, an older generation.",
+      "OlderBuild": "Verified up to {v}, an older build of the same generation."
+    },
+    "Issue": {
+      "MissingDependency": "Requires module {id}, which is not installed.",
+      "DependencyVersion": "Requires a different version of {id} (installed {v}).",
+      "DependencyInactive": "Requires module {id}, which is not active.",
+      "DependencyAtRisk": "Depends on {id}, which is {s}.",
+      "RequiresOtherSystem": "Requires the {id} system.",
+      "NotForSystem": "Does not list {id} among its systems.",
+      "SystemVersion": "Not compatible with {id} {v}.",
+      "Deprecations": "{n} deprecation warning(s) seen this session.",
+      "PackageWarning": "Foundry warning: {w}"
+    },
+    "Update": {
+      "NotChecked": "not checked",
+      "NoManifest": "no manifest URL",
+      "Current": "up to date",
+      "Unknown": "could not check",
+      "Error": "Manifest check failed: {e}",
+      "Supports": "supports target",
+      "NoSupport": "does not support target"
+    },
+    "Export": { "World": "World", "Core": "Current core", "Target": "Target core", "System": "System", "Generated": "Generated" },
+    "Checklist": {
+      "Title": "Pre-update checklist",
+      "Backup": "Back up this world (Setup > Worlds > Create Backup, or copy the world folder).",
+      "UserData": "Back up the whole user data folder, including modules and systems.",
+      "ReleaseNotes": "Read the release notes for the new core version and for your game system.",
+      "Export": "Export this report so you know what was enabled before.",
+      "UpdateModules": "Update modules that have a newer version supporting the target.",
+      "DisableRisky": "Disable modules marked Likely to break or Blocked (button below).",
+      "TestCopy": "Try the update on a copy of the world first.",
+      "Installer": "Keep the installer for your current version in case you need to roll back."
+    },
+    "Disable": {
+      "Button": "Disable modules likely to break ({n})",
+      "Title": "Disable risky modules?",
+      "Intro": "These active modules are Likely to break or Blocked on core {t}. Untick any you want to keep. Nothing changes until you confirm.",
+      "Snapshot": "Your current module list is saved first, so you can restore it later.",
+      "Confirm": "Disable selected",
+      "None": "No active modules need disabling.",
+      "SnapshotLabel": "Before disabling risky modules for core {t}",
+      "Done": "Disabled {n} module(s). A snapshot of the previous list was saved."
+    },
+    "Restore": {
+      "Button": "Restore module list",
+      "Latest": "Latest snapshot: {t}",
+      "Title": "Restore module list?",
+      "Content": "Restore the module list saved at {t} ({l})?",
+      "Done": "Module list restored."
+    },
+    "Reload": { "Title": "Reload required", "Content": "Module changes take effect after a reload. Reload now?" },
+    "Settings": {
+      "report": { "Name": "Upgrade Guardian report", "Label": "Open report", "Hint": "Scan modules against a target core version before you update." },
+      "startupNotice": { "Name": "Startup notice", "Hint": "When the GM logs in, scan offline and warn if active modules will likely break on the target version." },
+      "targetVersion": { "Name": "Target core version", "Hint": "Leave blank to use the newest release Foundry reports, if any." },
+      "targetSystemVersion": { "Name": "Target system version", "Hint": "Optional. Check modules' system requirements against this version of your game system." },
+      "releaseApiUrl": { "Name": "Release API URL", "Hint": "Optional JSON endpoint returning the latest core release (fields version, or generation and build)." },
+      "fetchTimeout": { "Name": "Manifest timeout (seconds)", "Hint": "How long to wait for each module manifest before giving up." }
+    }
+  }
+}

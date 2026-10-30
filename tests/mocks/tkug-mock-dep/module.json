@@ -1,0 +1,1 @@
+{"id": "tkug-mock-dep", "title": "TKUG Mock Missing Dep", "version": "1.0.0", "compatibility": {"minimum": "13", "verified": "15"}, "relationships": {"requires": [{"id": "tkug-mock-missing", "type": "module"}]}}
